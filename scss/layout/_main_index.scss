@@ -1,0 +1,52 @@
+.body_index{
+    background-color: #313213;
+}
+main{
+    width: 100%;
+    .sec1{
+        h1{
+            margin-top: 10%;
+            font-family: 'Rubik', sans-serif;
+            color: #F0FA5A;
+            text-align: center;
+            font-size: 3rem;
+            #marca_registrada{
+                font-size: 0.3em;
+                vertical-align: text-top;
+            }
+        }
+    }
+    .sec2{
+        .buton{
+            margin-top: 7rem;
+            display: flex;
+            justify-content: center;
+            input{
+                font-family: 'Rubik', sans-serif;
+                text-align: center;
+                display: inline-block;
+                padding: .6875rem 2.3125rem;
+                background-color: #F0FA5A;
+                border: none;
+                font-weight: bold;
+                border-radius: 5px;
+                font-size: 12px;
+            }&:hover{
+                transform: translateY(-2px);
+            }
+        }
+        .create{
+            a{
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+                font-family: 'Rubik', sans-serif;
+                color: #F0FA5A;
+                font-size: 13px;
+                margin-top: 2rem;
+            }&:hover{
+                transform: translateY(-2px);
+            }
+        }
+    }
+}

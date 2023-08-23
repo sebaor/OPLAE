@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*Index - Main*/
+.body_index {
+  background-color: #313213; }
+
+main {
+  width: 100%; }
+  main .sec1 h1 {
+    margin-top: 10%;
+    font-family: 'Rubik', sans-serif;
+    color: #F0FA5A;
+    text-align: center;
+    font-size: 3rem; }
+    main .sec1 h1 #marca_registrada {
+      font-size: 0.3em;
+      vertical-align: text-top; }
+  main .sec2 .buton {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center; }
+    main .sec2 .buton input {
+      font-family: 'Rubik', sans-serif;
+      text-align: center;
+      display: inline-block;
+      padding: .6875rem 2.3125rem;
+      background-color: #F0FA5A;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+      font-size: 12px; }
+    main .sec2 .buton:hover {
+      transform: translateY(-2px); }
+  main .sec2 .create a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: #F0FA5A;
+    font-size: 13px;
+    margin-top: 2rem; }
+  main .sec2 .create:hover {
+    transform: translateY(-2px); }
+
+/*Seccion Login*/
+/*Navbar*/
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header img {
+    margin: .625rem;
+    width: 2rem;
+    border-radius: 5px; }
+  header nav ul li {
+    list-style: none; }
+    header nav ul li a {
+      margin: .625rem;
+      text-decoration: none;
+      color: #F0FA5A;
+      font-size: 2rem; }
+
+/*Main*/
+.body_login {
+  background-color: black; }
+
+.main_login .login .primera_parte_login h1 {
+  display: flex;
+  justify-content: center;
+  width: 1295px;
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  color: #F0FA5A;
+  font-size: 2rem; }
+
+.main_login .login .parrafos_login {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center; }
+  .main_login .login .parrafos_login p {
+    width: 247px;
+    font-family: 'Rubik', sans-serif;
+    color: #F0FA5A;
+    font-size: 12px; }
+
+.main_login .login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  margin-top: 3rem; }
+  .main_login .login-form input {
+    width: 12rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #F0FA5A;
+    color: #F0FA5A;
+    padding: 5px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+    font-size: 12px; }
+  .main_login .login-form:focus {
+    outline: none;
+    border-bottom: 1px solid #F0FA5A;
+    padding: 7px;
+    background-color: #F0FA5A; }
+  .main_login .login-form input::placeholder {
+    color: #F0FA5A; }
+
+.main_login .parrafo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem; }
+  .main_login .parrafo p {
+    font-size: 9px;
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+    color: #F0FA5A; }
+
+.main_login .boton_submit {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center; }
+  .main_login .boton_submit input[type="submit"] {
+    background-color: #F0FA5A;
+    border-radius: 5px;
+    font-size: 10px;
+    border: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; }
+
+.main_login .olvido_su_contraseña {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem; }
+  .main_login .olvido_su_contraseña p {
+    font-family: 'Rubik', sans-serif;
+    color: #F0FA5A;
+    font-size: 12px; }
+
+/*Seccion Create Account*/
+.body_create_account {
+  background-color: black; }
