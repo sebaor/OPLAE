@@ -78,16 +78,26 @@
             width: 200px;
             cursor: pointer;
             transition: background-color 0.3s ease-in-out;
-            }
+            }&:hover{
+                transform: translateY(-2px);
+        }
     }
     .olvido_su_contraseña{
         display: flex;
         justify-content: center;
         margin-top: 1rem;
-        p{
-            font-family: 'Rubik', sans-serif;
-            color: #F0FA5A;
-            font-size: 12px;
-        }
+        input[type="button"]{
+            font-size: 10px;
+                border-radius: 5px;
+                font-family: 'Rubik', sans-serif;
+                width: 200px;
+                border: 1px solid #F0FA5A;
+                background-color: transparent;
+                color: #F0FA5A;
+                padding: 10px 20px; /* Ajusta el padding según tus preferencias */
+                cursor: pointer;
+                }&:hover{
+                    transform: translateY(-2px);
+                }
     }
 }

@@ -31,22 +31,29 @@ main{
                 font-weight: bold;
                 border-radius: 5px;
                 font-size: 12px;
+                width: 200px;
             }&:hover{
                 transform: translateY(-2px);
             }
         }
         .create{
-            a{
-                display: flex;
-                justify-content: center;
-                text-decoration: none;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            input[type="button"]{
+                font-size: 12px;
+                font-weight: bold;
+                border-radius: 5px;
                 font-family: 'Rubik', sans-serif;
+                width: 200px;
+                border: 1px solid #F0FA5A;
+                background-color: transparent;
                 color: #F0FA5A;
-                font-size: 13px;
-                margin-top: 2rem;
-            }&:hover{
-                transform: translateY(-2px);
-            }
+                padding: .6875rem 2.3125rem;
+                cursor: pointer;
+                }&:hover{
+                    transform: translateY(-2px);
+                }
         }
     }
 }
