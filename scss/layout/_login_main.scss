@@ -10,7 +10,7 @@
                 width: 1295px;
                 margin-top: 5%;
                 font-family: 'Poppins', sans-serif;
-                color: #F0FA5A;
+                color: $color_principal;
                 font-size: 2rem;
             }
         }
@@ -21,7 +21,7 @@
             p{
                 width: 247px;
                 font-family: 'Rubik', sans-serif;
-                color: #F0FA5A;
+                color: $color_principal;
                 font-size: 12px;
             }
         }
@@ -37,19 +37,19 @@
             width: 12rem;
             background-color: transparent;
             border: none;
-            border-bottom: 1px solid #F0FA5A;
-            color: #F0FA5A;
+            border-bottom: 1px solid $color_principal;
+            color: $color_principal;
             padding: 5px;
             margin-bottom: 15px;
             transition: all 0.3s ease-in-out;
             font-size: 12px;
             }&:focus{
             outline: none;
-            border-bottom: 1px solid #F0FA5A;
+            border-bottom: 1px solid $color_principal;
             padding: 7px;
-            background-color: #F0FA5A;
+            background-color: $color_principal;
             }input::placeholder{
-            color: #F0FA5A;
+            color: $color_principal;
             }
     }
     .parrafo{
@@ -60,7 +60,7 @@
             font-size: 9px;
             width: 250px;
             font-family: 'Poppins', sans-serif;
-            color: #F0FA5A;
+            color: $color_principal;
         }
     }
     .boton_submit{
@@ -68,7 +68,7 @@
         display: flex;
         justify-content: center;
         input[type="submit"]{
-            background-color: #F0FA5A;
+            background-color: $color_principal;
             border-radius: 5px;
             font-size: 10px;
             border: none;
@@ -91,9 +91,9 @@
                 border-radius: 5px;
                 font-family: 'Rubik', sans-serif;
                 width: 200px;
-                border: 1px solid #F0FA5A;
+                border: 1px solid $color_principal;
                 background-color: transparent;
-                color: #F0FA5A;
+                color: $color_principal;
                 padding: 10px 20px; /* Ajusta el padding según tus preferencias */
                 cursor: pointer;
                 }&:hover{

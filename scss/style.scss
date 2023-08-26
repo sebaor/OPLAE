@@ -1,5 +1,7 @@
 /*Reset*/
 @import "./base/reset";
+/*Variables*/
+@import "./utilities/variables";
 /*Efects*/
 @import "./components/efects";
 /*Index - Main*/
@@ -11,4 +13,5 @@
 @import "./layout/login_main";
 /*Seccion Create Account*/
 @import "./layout/create_account";
-/*Version 320*/
+/*Seccion Artista Favorito*/
+@import "./layout/artista_favorito";

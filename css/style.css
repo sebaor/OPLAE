@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box; }
 
+/*Variables*/
 /*Efects*/
 .sec1 {
   -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
@@ -265,4 +266,67 @@ main {
     main .new_account .buton_fan:hover {
       transform: translateY(-2px); }
 
-/*Version 320*/
+/*Seccion Artista Favorito*/
+.body_soy_creador {
+  background-color: black; }
+
+main {
+  width: 100%;
+  margin-top: 1%; }
+  main .secc_artista .div_artista_favorito {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .secc_artista .div_artista_favorito h1 {
+      width: 19rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: 2rem;
+      color: white; }
+    main .secc_artista .div_artista_favorito p {
+      width: 19rem;
+      font-family: 'Rubik', sans-serif;
+      color: #F0FA5A;
+      font-size: 12px;
+      margin-top: 1rem; }
+  main .secc_artista .artista {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65rem; }
+    main .secc_artista .artista img {
+      width: 12rem;
+      border-radius: 5px; }
+  main .secc_artista .info_artista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem; }
+    main .secc_artista .info_artista h2 {
+      font-family: 'Amatic SC', cursive;
+      color: #F0FA5A;
+      width: 19rem; }
+    main .secc_artista .info_artista p {
+      width: 19rem;
+      font-family: 'Rubik', sans-serif;
+      color: white;
+      font-size: 12px;
+      margin-top: 1rem; }
+  main .secc_artista .buton_creador {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 1175px; }
+    main .secc_artista .buton_creador input[type="button"] {
+      background-color: #F0FA5A;
+      border-radius: 5px;
+      font-size: 10px;
+      border: none;
+      color: black;
+      font-family: 'Rubik', sans-serif;
+      padding: 10px;
+      width: 125px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out; }
+    main .secc_artista .buton_creador:hover {
+      transform: translateY(-2px); }
