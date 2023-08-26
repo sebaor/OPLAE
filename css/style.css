@@ -357,3 +357,7 @@ main {
         transition: background-color 0.3s ease-in-out; }
       main .cards .artistas .buton_creador:hover {
         transform: translateY(-2px); }
+
+/*Seccion Playlist Travis Scott*/
+.body_playlist_travis {
+  background-color: grey; }
