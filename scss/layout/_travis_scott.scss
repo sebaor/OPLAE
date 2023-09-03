@@ -24,11 +24,12 @@ main{
     .album{
         display: flex;
         justify-content: center;
-        margin-top: 3rem;
+        margin-top: 4rem;
         gap: 5rem;
         .text_album{
             h2{
-                padding: 5px;
+                font-size: 1rem;
+                padding: 3px;
                 font-family: 'Rubik', sans-serif;
                 color: white;
             }
