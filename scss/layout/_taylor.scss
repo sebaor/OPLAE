@@ -1,0 +1,57 @@
+.body_taylor{
+    background-image: url('../assets/fondo_taylor.jpeg');
+    background-size: cover; 
+    background-position: center;
+}
+
+main{
+    .tit_artist{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        h1{
+            font-family: 'Amatic SC', cursive;
+            color: white;
+            font-size: 3rem;
+        }
+        p{
+            color: $color_principal;
+            font-size: 12px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    .album{
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        gap: 5rem;
+        .text_album{
+            h2{
+                font-size: 2rem;
+                padding: 3px;
+                font-family: 'Rubik', sans-serif;
+                color: white;
+            }
+            p{
+                padding: 5px;
+                font-family: 'Rubik', sans-serif;
+                color: white;
+                font-size: 12px;
+            }
+            .icons_google{
+                display: flex;
+                gap: 5px;
+                padding: 5px;
+                .material-symbols-outlined {
+                    color: $color_principal;
+                    font-variation-settings:
+                    'FILL' 0,
+                    'wght' 100,
+                    'GRAD' 0,
+                    'opsz' 24
+                }
+            }
+        }
+    }
+}

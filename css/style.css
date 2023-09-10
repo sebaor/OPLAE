@@ -565,3 +565,132 @@ main .album {
     main .album .text_album .icons_google .material-symbols-outlined {
       color: #F0FA5A;
       font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
+
+/*Seccion Playlist Weeknd*/
+.body_weeknd {
+  background-image: url("../assets/fondo_weekend.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+main .tit_artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; }
+  main .tit_artist h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 3rem; }
+  main .tit_artist p {
+    color: #F0FA5A;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; }
+
+main .album {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 5rem; }
+  main .album .text_album h2 {
+    font-size: 2rem;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    color: white; }
+  main .album .text_album p {
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 12px; }
+  main .album .text_album .icons_google {
+    display: flex;
+    gap: 5px;
+    padding: 5px; }
+    main .album .text_album .icons_google .material-symbols-outlined {
+      color: #F0FA5A;
+      font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
+
+/*Seccion Playlist Taylor*/
+.body_taylor {
+  background-image: url("../assets/fondo_taylor.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+main .tit_artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; }
+  main .tit_artist h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 3rem; }
+  main .tit_artist p {
+    color: #F0FA5A;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; }
+
+main .album {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 5rem; }
+  main .album .text_album h2 {
+    font-size: 2rem;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    color: white; }
+  main .album .text_album p {
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 12px; }
+  main .album .text_album .icons_google {
+    display: flex;
+    gap: 5px;
+    padding: 5px; }
+    main .album .text_album .icons_google .material-symbols-outlined {
+      color: #F0FA5A;
+      font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
+
+/*Seccion Playlist Tiago*/
+.body_tiago {
+  background-image: url("../assets/fondo_tiago.jpeg");
+  background-size: cover;
+  background-position: center; }
+
+main .tit_artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; }
+  main .tit_artist h1 {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 3rem; }
+  main .tit_artist p {
+    color: #F0FA5A;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif; }
+
+main .album {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  gap: 5rem; }
+  main .album .text_album h2 {
+    font-size: 2rem;
+    padding: 3px;
+    font-family: 'Rubik', sans-serif;
+    color: white; }
+  main .album .text_album p {
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 12px; }
+  main .album .text_album .icons_google {
+    display: flex;
+    gap: 5px;
+    padding: 5px; }
+    main .album .text_album .icons_google .material-symbols-outlined {
+      color: #F0FA5A;
+      font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 24; }
